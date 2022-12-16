@@ -14,6 +14,6 @@ form.addEventListener("submit", (e) => {
     text.innerText = "Please enter a valid email";
   } else {
     form.classList.replace("error", "valid"); //replacing error class with valid class
-    text.innerText = "This is a valid email";
+    text.innerText = "Thank you, let's get started!";
   }
 });
