@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <script src="https://kit.fontawesome.com/f9aefcac71.js" crossorigin="anonymous"></script>
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -16,11 +17,11 @@
         <li><a href="#"> Sign In</a></li>
       </ul>
     </nav>
-
+    <!-- Section-01 | All your files in one location -->
     <section class="section-01-outter-wrapper">
       <div class="section-01-inner-wrapper">
         <div class="section-01-text">
-          <h1 class="header-primary">All your files in one secure location, accessible anywhere.</h1>
+          <h1 class="header-01">All your files in one secure location, accessible anywhere.</h1>
           <p class="paragraph-primary">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
           <form>
             <div class="cta-group-01">
@@ -34,10 +35,11 @@
       </div>
     </section>
 
+    <!-- Section-02 | Stay productive, wherever you are -->
     <section class="section-02-outter-wrapper">
       <div class="section-02-inner-wrapper">
         <div class="section-02-text">
-          <h2 class="header-secondary">Stay productive, wherever you are</h2>
+          <h2 class="header-02">Stay productive, wherever you are</h2>
           <p class="paragraph-secondary">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
 
           <p class="paragraph-secondary">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
@@ -65,6 +67,7 @@
       </div>
     </section>
 
+    <!-- Section-03 | Get early access today -->
     <section class="section-03-outter-wrapper">
       <div class="section-03-inner-wrapper">
         <div class="section-03-text">
@@ -74,15 +77,54 @@
         <form id="form-02">
           <div class="cta-group-02">
             <input class="input02" type="text" placeholder="Enter your email..." />
-            <button type="submit" class="btn btn1">Get Started</button>
+            <button type="submit" class="btn btn2">Get Started For Free</button>
           </div>
           <p class="text02"></p>
         </form>
       </div>
     </section>
 
-    <!--
-    Get Started For Free Phone: +1-543-123-4567 example@fylo.com About Us Jobs Press Blog Contact Us Terms Privacy -->
+    <footer>
+      <div class="footer-inner-wrapper">
+        <img src="./images/logo-footer.svg" alt="Fylo" class="footer-logo" />
+        <div class="contact-us-wrapper">
+          <div>
+            <a href="#"> <img src="./images/icon-phone.svg" class="icon-phone" alt="" /> Phone: +1-543-123-4567</a>
+          </div>
+          <div>
+            <a href="#"> <img src="./images/icon-email.svg" class="icon-email" alt="" /> example@fylo.com</a>
+          </div>
+        </div>
+
+        <ul class="footer-list-01">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+
+        <ul class="footer-list-02">
+          <li><a href="#"> Contact Us</a></li>
+          <li><a href="#"> Terms </a></li>
+          <li><a href="#"> Privacy</a></li>
+        </ul>
+
+        <div class="social-media">
+          <ul class="social-media-icons">
+            <li>
+              <a href="#"> <i class="fa fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
     <script src="./app.js"></script>
   </body>
 </html>
