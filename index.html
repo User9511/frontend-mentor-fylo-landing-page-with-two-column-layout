@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav>
-      <img src="./images/logo.svg" alt="fylo" class="logo" />
+      <img src="./images/logo.svg" alt="fylo" class="logo" aria-hidden="true" />
       <ul class="nav-links">
         <li><a href="#">Features</a></li>
         <li><a href="#"> Team</a></li>
@@ -25,7 +25,8 @@
           <p class="paragraph-primary">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
           <form>
             <div class="cta-group-01">
-              <input class="input" type="text" placeholder="Enter your email..." />
+              <label for="email"></label>
+              <input class="input" type="text" placeholder="Enter your email..." id="email" />
               <button type="submit" class="btn btn1">Get Started</button>
             </div>
             <p class="text"></p>
@@ -52,7 +53,7 @@
           </a>
 
           <div class="section-02-testimonial">
-            <img src="./images/icon-quotes.svg" alt="" class="icon-quote" />
+            <img src="./images/icon-quotes.svg" alt="" class="icon-quote" aria-hidden="true" />
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
             <div class="testimonial-profile">
               <img src="./images/avatar-testimonial.jpg" alt="Kyle Burton" class="avatar" />
@@ -76,7 +77,8 @@
         </div>
         <form id="form-02">
           <div class="cta-group-02">
-            <input class="input02" type="text" placeholder="Enter your email..." />
+            <label for="email02"></label>
+            <input class="input02" type="text" placeholder="Enter your email..." id="email02" />
             <button type="submit" class="btn btn2">Get Started For Free</button>
           </div>
           <p class="text02"></p>
@@ -86,13 +88,13 @@
 
     <footer>
       <div class="footer-inner-wrapper">
-        <img src="./images/logo-footer.svg" alt="Fylo" class="footer-logo" />
+        <img src="./images/logo-footer.svg" alt="Fylo" class="footer-logo" aria-hidden="true" />
         <div class="contact-us-wrapper">
           <div>
-            <a href="#"> <img src="./images/icon-phone.svg" class="icon-phone" alt="" /> Phone: +1-543-123-4567</a>
+            <a href="tel:+1-543-123-4567"> <img src="./images/icon-phone.svg" class="icon-phone" alt="" aria-hidden="true" /> Phone: +1-543-123-4567</a>
           </div>
           <div>
-            <a href="#"> <img src="./images/icon-email.svg" class="icon-email" alt="" /> example@fylo.com</a>
+            <a href="mailto:example@fylo.com"> <img src="./images/icon-email.svg" class="icon-email" alt="" aria-hidden="true" /> example@fylo.com</a>
           </div>
         </div>
 
@@ -112,13 +114,13 @@
         <div class="social-media">
           <ul class="social-media-icons">
             <li>
-              <a href="#"> <i class="fa fa-facebook-f"></i></a>
+              <a href="#" aria-label="facebook"> <i class="fa fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="#"> <i class="fa fa-twitter"></i></a>
+              <a href="#" aria-label="twitter"> <i class="fa fa-twitter"></i></a>
             </li>
             <li>
-              <a href="#"> <i class="fa fa-instagram"></i></a>
+              <a href="#" aria-label="instagram"> <i class="fa fa-instagram"></i></a>
             </li>
           </ul>
         </div>

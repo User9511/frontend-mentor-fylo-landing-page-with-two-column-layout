@@ -11,8 +11,10 @@
 :root {
   --Very-Dark-Blue: hsl(243, 87%, 12%);
   --Desaturated-Blue: hsl(238, 22%, 44%);
+  --Light-Blue: hsl(224, 93%, 72%);
   --Bright-Blue: hsl(224, 93%, 58%);
   --Moderate-Cyan: hsl(170, 45%, 43%);
+  --Light-Cyan: hsl(170, 54%, 56%);
   --Light-Grayish-Blue: hsl(240, 75%, 98%);
   --Light-Gray: hsl(0, 0%, 75%);
 
@@ -114,6 +116,7 @@ input {
 .text {
   font-size: 0.8rem;
   top: 0.3rem;
+  left: 1rem;
   position: relative;
 }
 
@@ -140,6 +143,12 @@ input {
   background-color: var(--Bright-Blue);
   color: white;
   font-weight: bold;
+}
+
+.btn:hover {
+  background-color: var(--Light-Blue);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .header-01 {
@@ -208,6 +217,11 @@ input {
   width: 60%;
   margin: 0 auto;
   font-size: 0.9rem;
+}
+
+.btn__underline :hover {
+  color: var(--Light-Cyan);
+  transition: 0.2s;
 }
 
 .btn__underline span:first-child {
@@ -370,7 +384,7 @@ footer {
 }
 
 i {
-  color: var(--Light-Gray);
+  color: white;
 }
 
 /* Desktop View */
@@ -580,18 +594,14 @@ i {
     display: flex;
     justify-content: center;
     width: 100%;
-
     position: relative;
   }
 
   .footer-inner-wrapper {
-    padding: 4rem 0;
-    color: white;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    gap: 3rem;
     max-width: 1200px;
     width: 100%;
     margin: 6rem 2rem 0 2rem;
@@ -600,47 +610,5 @@ i {
   .footer-logo {
     position: absolute;
     top: 5.5rem;
-  }
-
-  .contact-us-wrapper {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .icon-phone {
-    width: fit-content;
-    margin-right: 1rem;
-  }
-
-  .icon-email {
-    width: fit-content;
-    margin-right: 1rem;
-  }
-
-  .footer-list-01,
-  .footer-list-02 {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .social-media-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
-
-  .social-media-icons li {
-    border: 1px solid white;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-  }
-
-  i {
-    color: white;
   }
 }
