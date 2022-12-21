@@ -1,7 +1,7 @@
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-VSjrTvh_kq#comment-63a0ed8ea0148959371c8868)
-- Live Site URL: [](https://smgy94.github.io/frontend-mentor-fylo-landing-page-with-two-column-layout/)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-VSjrTvh_kq#comment-63a0ed8ea0148959371c8868)
+- [Live Site URL](https://smgy94.github.io/frontend-mentor-fylo-landing-page-with-two-column-layout/)
 
 # Frontend Mentor - Fylo landing page with two column layout solution
 
